@@ -1,1 +1,1 @@
-# Mini-Project-of-MIS-System
+This programme is totally based on basics of OOP, where I have used inheritance and switch(). Here the parent class is the college name and then its sub-class or child class is the school names(FST,FOH,FOM,FOBM). 
