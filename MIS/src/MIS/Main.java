@@ -1,14 +1,14 @@
 package MIS;
 import java.util.Scanner;
 
-class JSPM {
+class JSPM {                                                      //college name
     String studentName;
     long prn;   
     String div;
     long fees;  
 }
 
-class FST extends JSPM { // Faculty of Science and Technology
+class FST extends JSPM {                                        //FST: Faculty of Science and Technology
     Scanner sc = new Scanner(System.in);
 
     void StuName() {
@@ -19,7 +19,7 @@ class FST extends JSPM { // Faculty of Science and Technology
     void stuPRN() {
         System.out.print("Enter PRN: ");
         this.prn = sc.nextLong();
-        sc.nextLine(); // consume leftover newline
+        sc.nextLine();                                          // consume leftover newline
     }
 
     void StuDiv() {
@@ -41,7 +41,7 @@ class FST extends JSPM { // Faculty of Science and Technology
     }
 }
 
-class FOH extends JSPM { // Faculty of Humanities
+class FOH extends JSPM {                                           //FOH: Faculty of Humanities
     Scanner sc = new Scanner(System.in);
 
     void StuName() {
@@ -107,7 +107,7 @@ class FOM extends JSPM { // Faculty of Medical
     }
 }
 
-class FOBM extends JSPM { // Faculty of Business Management
+class FOBM extends JSPM {                                    //FOBM: Faculty of Business Management
     Scanner sc = new Scanner(System.in);
 
     void StuName() {
@@ -236,3 +236,4 @@ public class Main {
         }
     }
 }
+
